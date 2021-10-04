@@ -95,7 +95,7 @@ header {
 }
 
 .news_section_title p::before {
-  content: 'News';
+  content: "News";
   color: rgb(179, 39, 116);
   font-size: 5px;
   position: absolute;
@@ -116,10 +116,9 @@ header {
   border-bottom: 1px solid rgba(245, 245, 245, 0.8);
 }
 
-
 .news_section_item a {
   text-decoration: none;
-  color:dimgray;
+  color: dimgray;
 }
 
 .news_section_item_color {
@@ -153,7 +152,7 @@ header {
 }
 
 .about_section_title::before {
-  content: 'About';
+  content: "About";
   font-size: 5px;
   color: rgb(179, 39, 116);
   position: absolute;
@@ -179,8 +178,6 @@ header {
   height: auto;
 }
 
-
-
 .service_section_wrap {
   display: flex;
   justify-content: center;
@@ -204,7 +201,7 @@ header {
 }
 
 .service_section_title::before {
-  content: 'Service';
+  content: "Service";
   font-size: 5px;
   position: absolute;
   top: 0;
@@ -277,7 +274,7 @@ header {
 }
 
 .service_section_title_a::before {
-  content: '';
+  content: "";
   background: url(../img/service__first.svg) no-repeat;
   display: block;
   width: 100px;
@@ -286,16 +283,16 @@ header {
   padding-bottom: 18px;
 }
 
-.service_section_wrap_b::before{
-  content: '';
+.service_section_wrap_b::before {
+  content: "";
   background: url(../img/service__first.svg) no-repeat;
   display: inline-block;
   width: 100px;
   height: 100px;
 }
 
-.service_section_wrap_c::before{
-  content: '';
+.service_section_wrap_c::before {
+  content: "";
   background: url(../img/service__first.svg) no-repeat;
   display: inline-block;
   width: 100px;
@@ -304,8 +301,10 @@ header {
 
 .blog_section {
   background: #ddd;
-  padding: 50px 300px 30px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 100px;
+  padding: 50px 0;
 }
 
 .blog_section_card_left img,
@@ -313,16 +312,19 @@ header {
 .blog_section_card_right img {
   width: 250px;
   height: auto;
-  border-top-left-radius:  10px;
+  border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .blog_section_card {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  flex-wrap: nowrap;
   margin-bottom: 40px;
+}
+
+.blog_section_card_left,
+.blog_section_card_center {
+  margin-right: 30px;
 }
 
 .blog_section_card_left,
@@ -351,7 +353,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   font-size: 5px;
-  color:darkgrey;
+  color: darkgrey;
   padding: 10px 15px;
 }
 
@@ -364,7 +366,7 @@ header {
 }
 
 .blog_section_title::before {
-  content: 'Blog';
+  content: "Blog";
   color: rgb(150, 10, 150);
   font-size: 5px;
   position: absolute;
@@ -379,7 +381,7 @@ header {
 .blog_section_blogpage a {
   text-decoration: none;
   background: #fff;
-  border: solid 1px rgb(150, 10, 150) ;
+  border: solid 1px rgb(150, 10, 150);
   color: rgb(150, 10, 150);
   padding: 10px 24px;
   border-radius: 24px;
@@ -393,7 +395,10 @@ header {
   flex-direction: row;
 }
 
-.company_section_table table,tr,th,td {
+.company_section_table table,
+tr,
+th,
+td {
   border: solid 1px #ddd;
 }
 
@@ -422,7 +427,7 @@ header {
 }
 
 .company_section_title::before {
-  content: 'Company';
+  content: "Company";
   color: rgb(150, 10, 150);
   font-size: 5px;
   position: absolute;
@@ -444,7 +449,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 24px;
   font-weight: bold;
   color: #fff;
@@ -458,7 +463,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 24px;
   font-weight: bold;
   color: #fff;
@@ -485,7 +490,7 @@ header {
 }
 
 .contact_section_form_link {
-  background: linear-gradient(90deg,rgb(240,80,240),rgb(150,10,150));
+  background: linear-gradient(90deg, rgb(240, 80, 240), rgb(150, 10, 150));
   padding: 24px 20px;
   font-size: 14px;
   border-radius: 30px;
@@ -500,7 +505,7 @@ header {
 }
 
 .contact_section_form_link a::before {
-  content: '';
+  content: "";
   background-image: url(../img/mailicon.svg);
   background-size: cover;
   width: 20px;
@@ -515,8 +520,6 @@ header {
   margin-bottom: 100px;
 }
 
-
-
 .footer_info {
   padding: 15px;
   background: #ddd;
@@ -524,18 +527,6 @@ header {
   text-align: center;
   font-size: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .humberger_menu {
   display: none;
